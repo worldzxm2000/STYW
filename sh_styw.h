@@ -17,7 +17,7 @@
 #include"ControlUI.h"
 #define HEADER "BG"
 #define TAIL "ED"
-#define SH_STYW "17"
+#define SH_STYW "8"
 
 //½âÎöÊý¾Ý
 EXTERN_C SH_STYW_HHARED_EXPORT LRESULT Char2Json(QString &buff, QJsonObject &json);

@@ -17,7 +17,7 @@ int GetPort()
 //获取业务号
 int GetServiceTypeID()
 {
-	return 17;
+	return 8;
 }
 
 //获取版本号
@@ -149,6 +149,8 @@ LRESULT Char2Json(QString &buff, QJsonObject &json)
 					SubJson.insert("StationID", strlist.at(1));
 					//17水体液位
 					SubJson.insert("ServiceTypeID", SH_STYW);
+					//数据存储类型
+					SubJson.insert("DataSourceID", 17);
 					//是否为手动采集
 					SubJson.insert("SNAPSHOT",strlist.at(3).toInt());
 					//设备ID
